@@ -32,19 +32,19 @@ Last_RF=$pathMaster'data_outputs/tables/rf_station_tracking/lastObs/lastRFdayObs
 cd /home/hawaii_climate_products_container
 
 #wget files and put in proper dir locations
-wget -P './'$NWS_daily_rf $urlMaster$NWS_daily_rf
-wget -P './'$Hads_daily_rf $urlMaster$Hads_daily_rf
-wget -P './'$Madis_daily_rf $urlMaster$Madis_daily_rf
-wget -P './'$RF_source $urlMaster$RF_source
-wget -P './'$RF_raw $urlMaster$RF_raw
-wget -P './'$QAQC_flag $urlMaster$QAQC_flag
-wget -P './'$QAQC_prob $urlMaster$QAQC_prob
-wget -P './'$QAQC_fail $urlMaster$QAQC_fail
-wget -P './'$QAQC_raw $urlMaster$QAQC_raw
-wget -P './'$RF_fill $urlMaster$RF_fill
-wget -P './'$Fill_log $urlMaster$Fill_log
-wget -P './'$RF_unknown $urlMaster$RF_unknown
-wget -P './'$Count_log $urlMaster$Count_log
-wget -P './'$Last_RF $urlMaster$Last_RF
+wget $urlMaster$NWS_daily_rf -O './'$NWS_daily_rf
+wget $urlMaster$Hads_daily_rf -O './'$Hads_daily_rf
+wget $urlMaster$Madis_daily_rf -O './'$Madis_daily_rf
+wget $urlMaster$RF_source -O './'$RF_source
+wget $urlMaster$RF_raw -O './'$RF_raw
+wget $urlMaster$QAQC_flag -O './'$QAQC_flag
+wget $urlMaster$QAQC_prob -O './'$QAQC_prob
+wget $urlMaster$QAQC_fail -O './'$QAQC_fail
+wget $urlMaster$QAQC_raw -O './'$QAQC_raw
+wget $urlMaster$RF_fill -O './'$RF_fill
+wget $urlMaster$Fill_log -O './'$Fill_log
+wget $urlMaster$RF_unknown -O './'$RF_unknown
+wget $urlMaster$Count_log -O './'$Count_log
+wget $urlMaster$Last_RF -O './'$Last_RF
 
 ##PAU##
