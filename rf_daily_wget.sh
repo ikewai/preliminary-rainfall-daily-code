@@ -7,7 +7,7 @@ TZ=Pacific/Honolulu
 fileDate=$(date --date="1 day ago" +"%Y_%m") 
 
 #define master dir
-pathMaster=$'preliminary/' 
+pathMaster=$'preliminary/rainfall' 
 
 #define url
 urlMaster=$'https://ikeauth.its.hawaii.edu/files/v2/download/public/system/ikewai-annotated-data/HCDP/workflow_data/'
